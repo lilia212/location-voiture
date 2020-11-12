@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+    margin:0;
+}
+header{
+    background-image: url("../img/header.jpg");
+    background-position: center center;
+    background-size: cover;
+    height:40vw;
+}
+h1{
+    font-size:30px;
+}
+h2{
+    font-size:20px; 
+    font-weight: bold;
+}
+h3{
+    font-size:19px;  
+    
+  
+}
+img{
+    width: 100%;
+    height: auto;
+}
+p{
+    padding:0;
+    line-height: 15px;
+}
+
+/****************/
+.block1{
+    position: relative;
+    padding-top: 13vw ;
+}
+.nav-white{
+    background-color:rgba(248, 246, 246, 0.6);
+    
+}
+.block-opacity{
+    background-color:rgba(248, 246, 246, 0.5);
+    padding:10px 0px;
+    border-radius: 5px;
+}
+.btn-submit{
+    max-width: 200px;
+}
+/************/
+.paragraphe{
+    line-height: 20px;
+    font-size: 14px;
+}
+/******Page Contact********/
+.contact{
+    background-image: url("../img/taxi.jpg");
+}
+h2.titre{
+font-size:25px;
+font-weight: normal;
+line-height: 35px;
+}
+.block-opacity {
+        
+    max-width:700px;
+    margin: 0 auto;
+ }
+@media (max-width: 768px) {
+
+    header{
+        padding-top: 120px;
+        height:400px;
+    }
+    
+ }
+ 
+ 
+ 
